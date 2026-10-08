@@ -32,7 +32,7 @@ public class PayoffApp {
             if(scan.hasNextLine()) scan.nextLine();
 
             CreditCard card = new CreditCard(name, apr, balance);
-            System.out.println(card);
+            System.out.println(card);   
             // String aprString = String.format("%.2f%%", apr);
             // String balanceString = String.format("$%.2f", balance);
             // System.out.println(name + ": " + "APR: " + aprString + " Balance: " + balanceString);
